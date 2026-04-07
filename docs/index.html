@@ -3,72 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Corporativa</title>
+    <title>Food Logistic - Web Corporativa</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#inici">Inici</a></li>
-                <li><a href="#serveis">Serveis</a></li>
-                <li><a href="#sobre">Sobre nosaltres</a></li>
-                <li><a href="#contacte">Contacte</a></li>
-            </ul>
-        </nav>
+        <div class="container header-inner">
+            <a class="brand" href="#inici">
+                <img src="FoodLogisticLogo.png" alt="Food Logistic logo">
+                <span>Food Logistic</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#inici">Inici</a></li>
+                    <li><a href="#avantatges">Avantatges</a></li>
+                    <li><a href="#serveis">Serveis</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contacte">Contacte</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="inici">
-        <h1>Benvingut a la nostra Web Corporativa</h1>
-        <p>Som una empresa dedicada a oferir solucions innovadores per al teu negoci. Descobreix els nostres serveis i com podem ajudar-te a créixer.</p>
-        <img src="FoodLogisticLogo.png" alt="Logo Food Logistic" style="max-width: 200px;">
-    </section>
-
-    <section id="serveis">
-        <h2>Serveis</h2>
-        <div class="serveis-container">
-            <div class="servei">
-                <h3>Consultoria</h3>
-                <p>Oferim consultoria experta per optimitzar els teus processos empresarials.</p>
+    <main>
+        <section id="inici" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Logística alimentària intel·ligent</p>
+                    <h1>Optimitza la teva cadena de subministrament amb Food Logistic</h1>
+                    <p>Solucions flexibles per a distribuïdors i empreses que necessiten rapidesa, seguretat i traçabilitat en cada pas del producte.</p>
+                    <div class="hero-actions">
+                        <a href="#contacte" class="btn btn-primary">Parlem ara</a>
+                        <a href="#serveis" class="btn btn-secondary">Veure serveis</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="FoodLogisticLogo.png" alt="Food Logistic logo principal">
+                </div>
             </div>
-            <div class="servei">
-                <h3>Desenvolupament</h3>
-                <p>Desenvolupem solucions personalitzades per les teves necessitats tecnològiques.</p>
+        </section>
+
+        <section id="avantatges" class="stats-section">
+            <div class="container stats-grid">
+                <article class="stat-card">
+                    <h3>24/7</h3>
+                    <p>Monitoratge constant per garantir operacions sense interrupcions.</p>
+                </article>
+                <article class="stat-card">
+                    <h3>+98%</h3>
+                    <p>Índex de satisfacció dels clients gràcies a entregues segures i puntuals.</p>
+                </article>
+                <article class="stat-card">
+                    <h3>Traçabilitat completa</h3>
+                    <p>Control total de la cadena logística amb dades en temps real.</p>
+                </article>
             </div>
-            <div class="servei">
-                <h3>Suport</h3>
-                <p>Proporcionem suport continu per assegurar el funcionament òptim dels teus sistemes.</p>
+        </section>
+
+        <section id="serveis">
+            <div class="container section-heading">
+                <span class="section-label">Serveis</span>
+                <h2>Com ajudem el teu negoci a créixer</h2>
             </div>
-        </div>
-    </section>
+            <div class="container serveis-grid">
+                <article class="servei">
+                    <h3>Gestió de transport</h3>
+                    <p>Planifiquem rutes eficients i optimitzem el cost del transport amb tecnologia adaptada a cada client.</p>
+                </article>
+                <article class="servei">
+                    <h3>Emmagatzematge</h3>
+                    <p>Espais refrigerats i sistemes de control per garantir la frescor i la seguretat dels teus productes.</p>
+                </article>
+                <article class="servei">
+                    <h3>Consultoria logística</h3>
+                    <p>Auditem processos i proposem millores operatives per reduir temps i augmentar la rendibilitat.</p>
+                </article>
+            </div>
+        </section>
 
-    <section id="sobre">
-        <h2>Sobre nosaltres</h2>
-        <p>Som una empresa amb anys d'experiència en el sector, compromesa amb la qualitat i la innovació. El nostre equip està format per professionals qualificats que treballen per oferir el millor servei als nostres clients.</p>
-        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Equip de treball" style="max-width: 100%;">
-    </section>
+        <section id="sobre" class="about-section">
+            <div class="container about-grid">
+                <div>
+                    <span class="section-label">Sobre nosaltres</span>
+                    <h2>Som un equip centrat en la qualitat i l’eficàcia</h2>
+                    <p>Food Logistic ofereix solucions logístiques modernes per al sector alimentari, amb un focus especial en el control de temperatura, la traçabilitat i la seguretat alimentària.</p>
+                    <ul>
+                        <li>Equip amb experiència en logística i distribució alimentària.</li>
+                        <li>Tecnologia de seguiment i informes en temps real.</li>
+                        <li>Procés transparent i suport personalitzat.</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Equip de treball">
+                </div>
+            </div>
+        </section>
 
-    <section id="contacte">
-        <h2>Contacte</h2>
-        <form action="#" method="post">
-            <label for="nom">Nom:</label>
-            <input type="text" id="nom" name="nom" required>
+        <section id="contacte" class="contact-section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Contacte</span>
+                    <h2>Parlem de la teva logística</h2>
+                    <p>Estem preparats per oferir-te una solució a mida. Explica’ns el teu projecte i et respondrem amb un pla clar i efectiu.</p>
+                    <ul>
+                        <li><strong>Email:</strong> info@foodlogistic.com</li>
+                        <li><strong>Telèfon:</strong> +34 600 000 000</li>
+                    </ul>
+                </div>
+                <form action="#" method="post" class="contact-form">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" required>
 
-            <label for="correu">Correu electrònic:</label>
-            <input type="email" id="correu" name="correu" required>
+                    <label for="correu">Correu electrònic</label>
+                    <input type="email" id="correu" name="correu" required>
 
-            <label for="telefon">Telèfon de contacte:</label>
-            <input type="tel" id="telefon" name="telefon" required>
+                    <label for="telefon">Telèfon</label>
+                    <input type="tel" id="telefon" name="telefon" required>
 
-            <label for="missatge">Missatge:</label>
-            <textarea id="missatge" name="missatge" required></textarea>
+                    <label for="missatge">Missatge</label>
+                    <textarea id="missatge" name="missatge" rows="5" required></textarea>
 
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+                    <button type="submit" class="btn btn-primary">Enviar consulta</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 Web Corporativa. Tots els drets reservats.</p>
+        <div class="container footer-inner">
+            <p>&copy; 2026 Food Logistic. Tots els drets reservats.</p>
+            <p>Creem experiències logístiques segures i eficients per al teu negoci.</p>
+        </div>
     </footer>
 </body>
 </html>
