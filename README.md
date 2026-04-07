@@ -5,7 +5,7 @@ Aquesta és la web corporativa de [Nom de l'Empresa], una empresa fictícia dedi
 
 ## Demostració
 
-[🌐 URL de la web](https://[usuari].github.io/[nom-del-repositori])
+[🌐 URL de la web](https://marcjurado983.github.io/web-corporativa/])
 
 ## Tecnologies Utilitzades
 
@@ -17,4 +17,4 @@ Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines
 
 ## Autor
 
-👤 [Marc]
+👤 [Marc Jurado]
