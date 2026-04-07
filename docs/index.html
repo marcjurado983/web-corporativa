@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Corporativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inici">Inici</a></li>
+                <li><a href="#serveis">Serveis</a></li>
+                <li><a href="#sobre">Sobre nosaltres</a></li>
+                <li><a href="#contacte">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inici">
+        <h1>Benvingut a la nostra Web Corporativa</h1>
+        <p>Som una empresa dedicada a oferir solucions innovadores per al teu negoci. Descobreix els nostres serveis i com podem ajudar-te a créixer.</p>
+        <img src="images/logo.png" alt="Logo de l'empresa" style="max-width: 200px;">
+    </section>
+
+    <section id="serveis">
+        <h2>Serveis</h2>
+        <div class="serveis-container">
+            <div class="servei">
+                <h3>Consultoria</h3>
+                <p>Oferim consultoria experta per optimitzar els teus processos empresarials.</p>
+            </div>
+            <div class="servei">
+                <h3>Desenvolupament</h3>
+                <p>Desenvolupem solucions personalitzades per les teves necessitats tecnològiques.</p>
+            </div>
+            <div class="servei">
+                <h3>Suport</h3>
+                <p>Proporcionem suport continu per assegurar el funcionament òptim dels teus sistemes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre nosaltres</h2>
+        <p>Som una empresa amb anys d'experiència en el sector, compromesa amb la qualitat i la innovació. El nostre equip està format per professionals qualificats que treballen per oferir el millor servei als nostres clients.</p>
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Equip de treball" style="max-width: 100%;">
+    </section>
+
+    <section id="contacte">
+        <h2>Contacte</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="correu">Correu electrònic:</label>
+            <input type="email" id="correu" name="correu" required>
+
+            <label for="telefon">Telèfon de contacte:</label>
+            <input type="tel" id="telefon" name="telefon" required>
+
+            <label for="missatge">Missatge:</label>
+            <textarea id="missatge" name="missatge" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Web Corporativa. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>
