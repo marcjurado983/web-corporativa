@@ -11,7 +11,7 @@ Aquesta és la web corporativa de [Nom de l'Empresa], una empresa fictícia dedi
 
 Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines:
 
-- Indiqueu l'eina IA que heu utilitat.
+- Grok (de xAI) per generar el contingut textual i la estructura de la web. Les imatges utilitzades són de fonts lliures com Unsplash.
 - HTML5/CSS3
 - Statcounter per l'analítica
 
