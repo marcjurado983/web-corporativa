@@ -385,16 +385,22 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    justify-content: center;
     background: rgba(15, 23, 42, 0.96);
     color: #f8fafc;
     transform: translateY(110%);
-    transition: transform 0.25s ease;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    visibility: hidden;
+    opacity: 0;
     z-index: 1000;
     padding: 1rem 0;
 }
 
 .cookie-banner.show {
     transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
 }
 
 .cookie-banner-inner {
