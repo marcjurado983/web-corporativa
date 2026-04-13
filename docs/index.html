@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="cookie-banner js-cookie-banner" aria-live="polite">
+        <div class="container cookie-banner-inner">
+            <div>
+                <strong>Utilitzem cookies</strong>
+                <p>Per oferir-te una millor experiència, analitzar el trànsit i personalitzar continguts. Accepta les cookies per continuar navegant sense interrupcions.</p>
+            </div>
+            <div class="cookie-actions">
+                <a href="politica-cookies.html" class="btn btn-secondary">Més informació</a>
+                <button type="button" class="btn btn-primary cookie-accept">Acceptar</button>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="container header-inner">
             <a class="brand" href="#inici">
@@ -125,6 +137,12 @@
                     <label for="missatge">Missatge</label>
                     <textarea id="missatge" name="missatge" rows="5" required></textarea>
 
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        Accepto la <a href="politica-privacitat.html">política de privacitat</a> i la <a href="politica-cookies.html">política de cookies</a>.
+                    </label>
+                    <p class="form-note">Les teves dades es mantindran segures i no es compartiran amb tercers sense el teu consentiment.</p>
+
                     <button type="submit" class="btn btn-primary">Enviar consulta</button>
                 </form>
             </div>
@@ -133,13 +151,29 @@
 
     <footer>
         <div class="container footer-inner">
-            <p>&copy; 2026 Food Logistic. Tots els drets reservats.</p>
-            <p>Creem experiències logístiques segures i eficients per al teu negoci.</p>
+            <div>
+                <p>&copy; 2026 Food Logistic. Tots els drets reservats.</p>
+                <p>Creem experiències logístiques segures i eficients per al teu negoci.</p>
+            </div>
+            <nav class="footer-links">
+                <a href="avis-legal.html">Avís legal</a>
+                <a href="politica-privacitat.html">Política de privacitat</a>
+                <a href="politica-cookies.html">Política de cookies</a>
+            </nav>
         </div>
     </footer>
-</body>
-<!-- Default Statcounter code for web-corporativa
+    <!-- Default Statcounter code for web-corporativa
 https://marcjurado983.github.io/web-corporativa/ -->
+    <script type="text/javascript">
+var sc_project=13221907; 
+var sc_invisible=1; 
+var sc_security="ff59eba1"; 
+</script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13221907/0/ff59eba1/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+    <script src="scripts.js"></script>
+</body>
 <script type="text/javascript">
 var sc_project=13221907; 
 var sc_invisible=1; 
