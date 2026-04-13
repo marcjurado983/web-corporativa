@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Galeta de cookies">
+  <circle cx="60" cy="60" r="50" fill="#f4c75e" stroke="#d29b2e" stroke-width="4" />
+  <circle cx="40" cy="42" r="6" fill="#8f5b26" />
+  <circle cx="72" cy="34" r="5" fill="#8f5b26" />
+  <circle cx="80" cy="62" r="7" fill="#8f5b26" />
+  <circle cx="52" cy="74" r="5" fill="#8f5b26" />
+  <circle cx="68" cy="86" r="6" fill="#8f5b26" />
+  <path d="M32 50a28 28 0 0 1 56 0c0 15.5-12.5 28-28 28S32 65.5 32 50z" fill="#e8a93c" opacity="0.25"/>
+</svg>

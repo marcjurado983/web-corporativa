@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     var banner = document.querySelector(".js-cookie-banner");
     var acceptButton = document.querySelector(".cookie-accept");
-    if (!banner || !acceptButton) {
+    var declineButton = document.querySelector(".cookie-decline");
+    if (!banner || !acceptButton || !declineButton) {
         return;
     }
 
@@ -11,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     acceptButton.addEventListener("click", function () {
         localStorage.setItem("foodlogisticCookieConsent", "accepted");
+        banner.classList.remove("show");
+    });
+
+    declineButton.addEventListener("click", function () {
+        localStorage.setItem("foodlogisticCookieConsent", "rejected");
         banner.classList.remove("show");
     });
 });

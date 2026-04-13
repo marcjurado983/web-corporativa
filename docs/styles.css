@@ -423,6 +423,31 @@ footer {
     align-items: center;
     gap: 0.75rem;
     flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.cookie-banner .btn {
+    min-width: 4.75rem;
+}
+
+.cookie-decline {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.7);
+    color: #ffffff;
+}
+
+.cookie-decline:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.btn-link {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.7);
+    color: #ffffff;
+}
+
+.btn-link:hover {
+    background: rgba(255,255,255,0.08);
 }
 
 .checkbox-label {
