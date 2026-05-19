@@ -1,11 +1,13 @@
 
 # Web Corporativa de [FOODLOGISTIC]
 
-Aquesta és la web corporativa de [Nom de l'Empresa], una empresa fictícia dedicada a [descripció breu de l'empresa] dins el mòdul *Projecte Intermodular*.
+Aquesta és la web corporativa den Marc Jurado, una empresa fictícia dedicada als aliments dins el mòdul *Projecte Intermodular*.
 
 ## Demostració
 
 [🌐 URL de la web](https://marcjurado983.github.io/web-corporativa/)
+
+[URL del STATCOUNTER](https://statcounter.com/p13221907/summary/)
 
 ## Tecnologies Utilitzades
 
