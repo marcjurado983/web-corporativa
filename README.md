@@ -1,5 +1,5 @@
 
-# Web Corporativa de [Nom de l'Empresa]
+# Web Corporativa de [FOODLOGISTIC]
 
 Aquesta és la web corporativa de [Nom de l'Empresa], una empresa fictícia dedicada a [descripció breu de l'empresa] dins el mòdul *Projecte Intermodular*.
 
